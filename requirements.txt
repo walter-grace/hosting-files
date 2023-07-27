@@ -1,0 +1,8 @@
+streamlit
+streamlit-drawable-canvas
+opencv-python
+numpy
+requests
+Pillow
+python-dotenv
+pandas

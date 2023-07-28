@@ -143,6 +143,8 @@ if uploaded_image is not None:
         display_toolbar=st.sidebar.checkbox("Display toolbar", True),
         key="canvas",
     )
+    st.subheader("Uploaded Image Preview")
+    st.image(image)
 
     if canvas_result.image_data is not None:
         st.image(canvas_result.image_data)
